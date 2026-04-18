@@ -19,35 +19,12 @@ The platform aims to strengthen healthcare research infrastructure by improving 
 - Medtrix uses **NLP (Natural Language Processing)** to convert this text into structured logic.
 - The system automatically understands inclusion and exclusion criteria.
 
-Example:
-
-Eligibility Text  
-Patients aged 40–60 with Type 2 Diabetes and no heart disease.
-
-Converted Logic  
-- Age ≥ 40  
-- Age ≤ 60  
-- Condition = Type 2 Diabetes  
-- Heart Disease = False  
-
-This allows automatic eligibility evaluation.
-
 ### Rule-Based Eligibility Evaluation
 - Checks patient records against trial criteria.
 - Ensures transparent decision making.
 - Evaluates:
   - Inclusion criteria
   - Exclusion criteria
-
-Example:
-
-Patient Data  
-- Age: 50  
-- Condition: Diabetes  
-- Heart Disease: No  
-
-Result  
-Eligible for Trial
 
 ### Machine Learning Trial Ranking
 When multiple trials match, Medtrix ranks them based on:
@@ -81,16 +58,7 @@ This ensures trust in AI-driven healthcare decisions.
 ### Geographic Trial Filtering
 - Filters clinical trials based on patient location.
 - Helps patients discover nearby trials.
-
-Example:
-
-Patient Location: Mumbai
-
-Recommended Trials  
-- Diabetes Clinical Trial – Mumbai  
-- Metabolic Study – Pune  
-- Lifestyle Research Trial – Delhi  
-
+  
 ---
 
 ## Data Sources
@@ -102,14 +70,6 @@ Patient data can come from:
 - Public healthcare datasets
 - Research datasets
 - Manual anonymized demo input
-
-Example Patient Record
-
-Patient_ID: P102  
-Age: 50  
-Condition: Type 2 Diabetes  
-Heart Disease: No  
-Location: Mumbai  
 
 All data is **anonymized and privacy-safe**.
 
@@ -123,13 +83,6 @@ Each trial includes:
 - Eligibility criteria
 - Trial phase
 - Location
-
-Example Trial
-
-Trial Name: Diabetes Drug Study  
-Eligibility: Age 40–60 with Diabetes  
-Exclusion: Heart Disease  
-Location: Mumbai  
 
 ---
 
