@@ -133,62 +133,6 @@ Location: Mumbai
 
 ---
 
-## System Workflow
-
-### Step 1 – Patient Data Input
-Anonymized patient health records are uploaded to the system.
-
-Example
-
-Age: 50  
-Condition: Diabetes  
-Heart Disease: No  
-Location: Mumbai  
-
-### Step 2 – Clinical Trial Dataset Loading
-The platform loads clinical trial information including eligibility criteria.
-
-### Step 3 – NLP Eligibility Parsing
-AI converts eligibility text into structured rules.
-
-Example
-
-Text: Patients aged 40–60 with diabetes
-
-Converted Rules  
-- Age ≥ 40  
-- Age ≤ 60  
-- Condition = Diabetes  
-
-### Step 4 – Matching Engine
-The system compares patient data with clinical trial criteria.
-
-Example
-
-Patient Age = 50  
-Trial Age Range = 40–60  
-
-Result: Eligible
-
-### Step 5 – Machine Learning Ranking
-Trials are ranked using match probability and relevance.
-
-Example Ranking
-
-1. Diabetes Drug Trial – 92%  
-2. Metabolic Research Study – 85%  
-3. Lifestyle Trial – 70%
-
-### Step 6 – Recommendation Dashboard
-The system displays:
-
-- Best matching clinical trials
-- Eligibility explanations
-- Confidence scores
-- Location-based filtering
-
----
-
 ## Privacy & Ethical Safeguards
 
 Healthcare data privacy is critical. Medtrix ensures:
@@ -242,16 +186,6 @@ No personal details such as **name, phone number, or address** are stored.
 
 ### Healthcare Industry
 - Strengthen clinical research infrastructure.
-
----
-
-## Future Enhancements
-
-- Integration with hospital Electronic Health Records (EHR)
-- Real-time global clinical trial database integration
-- AI chatbot for clinical trial discovery
-- Advanced predictive analytics for trial success
-- Multi-country clinical trial search platform
 
 ---
 
